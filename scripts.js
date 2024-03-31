@@ -1,16 +1,18 @@
-// Assuming your navigation menu has a class called 'dropdown-content'
-const dropdownMenu = document.querySelector('.dropdown-content');
-const navclickButton = document.getElementById('navclick');
-const navCloseButton = document.getElementById('navClose');
+let navclickButton = document.getElementById('navclick');
+let navCloseButton = document.getElementById('navClose');
+let dropdown = document.querySelector('.dropdown-content'); // Assuming your dropdown has a class 'dropdown-content'
 
 navclickButton.addEventListener('click', () => {
-    dropdownMenu.classList.toggle('hidden'); // Show/hide the menu
-    navCloseButton.classList.remove('hidden'); // Show the cross SVG
-    navclickButton.classList.add('hidden'); // Hide the menu icon
+    // Hide navclickButton, Show navCloseButton
+    navclickButton.classList.add('hidden');
+    navCloseButton.classList.remove('hidden');
 });
 
 navCloseButton.addEventListener('click', () => {
-    dropdownMenu.classList.add('hidden'); // Hide the menu
-    navCloseButton.classList.add('hidden'); // Hide the cross SVG
-    navclickButton.classList.remove('hidden'); // Show the menu icon
+    // Toggle visibility of navclickButton and navCloseButton
+    navclickButton.classList.remove('hidden');
+    navCloseButton.classList.add('hidden');
+
+    // Hide the dropdown
+    dropdown.classList.add('hidden');
 });
