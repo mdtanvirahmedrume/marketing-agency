@@ -6,6 +6,7 @@ navclickButton.addEventListener('click', () => {
     // Hide navclickButton, Show navCloseButton
     navclickButton.classList.add('hidden');
     navCloseButton.classList.remove('hidden');
+    dropdown.classList.remove('hidden');
 });
 
 navCloseButton.addEventListener('click', () => {
