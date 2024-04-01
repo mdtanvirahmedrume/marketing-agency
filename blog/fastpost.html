@@ -25,145 +25,182 @@
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
-
   </head>
 
   <!-- Body Section Start here -->
   <body class="bg-[#F0F8FB]">
     <!-- Adjust max height class -->
 
-        <!-- Header Section -->
-        <header>
-          <!-- Navigation Bar Start here -->
-          <div
-            class="navbar shadow-lg bg-black lg:p-6 text-white fixed w-full z-50">
-            <!-- Adjust z-index to ensure navbar is on top -->
-            <div class="navbar-start">
-              <div class="dropdown">
-                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                  <div id="navclick" class="">
-                    <svg 
-                      xmlns="http://www.w3.org/2000/svg"
-                      class="h-5 w-5"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor">
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M4 6h16M4 12h8m-8 6h16" />
-                    </svg>
-                  </div>
-    
-                  <!-- Nav Close -->
-                  <div id="navClose" class="hidden">
-                    <svg
-                      class="w-5 h-5"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg">
-                      <path
-                        d="M6.99486 7.00636C6.60433 7.39689 6.60433 8.03005 6.99486 8.42058L10.58 12.0057L6.99486 15.5909C6.60433 15.9814 6.60433 16.6146 6.99486 17.0051C7.38538 17.3956 8.01855 17.3956 8.40907 17.0051L11.9942 13.4199L15.5794 17.0051C15.9699 17.3956 16.6031 17.3956 16.9936 17.0051C17.3841 16.6146 17.3841 15.9814 16.9936 15.5909L13.4084 12.0057L16.9936 8.42059C17.3841 8.03007 17.3841 7.3969 16.9936 7.00638C16.603 6.61585 15.9699 6.61585 15.5794 7.00638L11.9942 10.5915L8.40907 7.00636C8.01855 6.61584 7.38538 6.61584 6.99486 7.00636Z"
-                        fill="#FFFFFF" />
-                    </svg>
-                  </div>
-                </div>
-                    <ul
-                    tabindex="0"
-                    class="menu bg-black text-white menu-sm dropdown-content mt-3 z-[1] p-2 shadow rounded-box w-52">
-                    <li><a href="../index.html">Home</a></li>
-                    <li>
-                      <a>Pages</a>
-                      <ul class="p-2">
-                        <li><a href="#">Pages 1</a></li>
-                        <li><a href="#">pages 2</a></li>
-                      </ul>
-                    </li>
-                    <li><a href="../index.html#about">About</a></li>
-                    <li><a href="../blog.html">Blog</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                  </ul>
+    <!-- Header Section -->
+    <header>
+      <!-- Navigation Bar Start here -->
+      <div
+        class="navbar shadow-lg bg-black lg:p-6 text-white fixed w-full z-50">
+        <!-- Adjust z-index to ensure navbar is on top -->
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <div id="navclick" class="">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor">
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16" />
+                </svg>
               </div>
-              <a class="btn btn-ghost text-3xl">Tanvir Ahmed</a>
+
+              <!-- Nav Close -->
+              <div id="navClose" class="hidden">
+                <svg
+                  class="w-5 h-5"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M6.99486 7.00636C6.60433 7.39689 6.60433 8.03005 6.99486 8.42058L10.58 12.0057L6.99486 15.5909C6.60433 15.9814 6.60433 16.6146 6.99486 17.0051C7.38538 17.3956 8.01855 17.3956 8.40907 17.0051L11.9942 13.4199L15.5794 17.0051C15.9699 17.3956 16.6031 17.3956 16.9936 17.0051C17.3841 16.6146 17.3841 15.9814 16.9936 15.5909L13.4084 12.0057L16.9936 8.42059C17.3841 8.03007 17.3841 7.3969 16.9936 7.00638C16.603 6.61585 15.9699 6.61585 15.5794 7.00638L11.9942 10.5915L8.40907 7.00636C8.01855 6.61584 7.38538 6.61584 6.99486 7.00636Z"
+                    fill="#FFFFFF" />
+                </svg>
+              </div>
             </div>
-            <div class="navbar-end hidden lg:flex">
-              <ul
-                class="menu menu-horizontal px-1 bg-black text-white mr-10 text-lg">
-                <li><a href="../index.html">Home</a></li>
-                <li>
-                  <details>
-                    <summary>Pages</summary>
-                    <ul class="p-2 bg-black shadow-slate-400 rounded-sm">
-                      <li class="w-36"><a href="#">Pages 1</a></li>
-                      <li class="w-36 mt-1"><a href="#">Pages 2</a></li>
-                    </ul>
-                  </details>
-                </li>
-                <li><a href="../index.html#about">About</a></li>
-                <li><a href="../blog.html">Blog</a></li>
-                <li><a href="../index.html#contact">Contact</a></li>
-              </ul>
-            </div>
+            <ul
+              tabindex="0"
+              class="menu bg-black text-white menu-sm dropdown-content mt-3 z-[1] p-2 shadow rounded-box w-52">
+              <li><a href="../index.html">Home</a></li>
+              <li>
+                <a>Pages</a>
+                <ul class="p-2">
+                  <li><a href="#">Pages 1</a></li>
+                  <li><a href="#">pages 2</a></li>
+                </ul>
+              </li>
+              <li><a href="../index.html#about">About</a></li>
+              <li><a href="../blog.html">Blog</a></li>
+              <li><a href="../index.html#contact">Contact</a></li>
+            </ul>
           </div>
-    
-          <!-- Hero Section -->
-          <section class="relative">
-            <img
-              src="/assets/background.jpg"
-              class="h-50 lg:h-full w-full object-cover"
-              alt="Background Image" />
-            <div
-              class="absolute inset-0 flex  flex-col items-center justify-center md:text-base">
-              <!-- Post Title -->
-              <h2 class="text-base text-center lg:text-3xl text-white">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, earum?
-              </h2>
-              <hr class="lg:mt-6 w-1/3 border border-white animate-pulse" />
+          <a href="../index.html" class="btn btn-ghost text-3xl"
+            >Tanvir Ahmed</a
+          >
+        </div>
+        <div class="navbar-end hidden lg:flex">
+          <ul
+            class="menu menu-horizontal px-1 bg-black text-white mr-10 text-lg">
+            <li><a href="../index.html">Home</a></li>
+            <li>
+              <details>
+                <summary>Pages</summary>
+                <ul class="p-2 bg-black shadow-slate-400 rounded-sm">
+                  <li class="w-36"><a href="#">Pages 1</a></li>
+                  <li class="w-36 mt-1"><a href="#">Pages 2</a></li>
+                </ul>
+              </details>
+            </li>
+            <li><a href="../index.html#about">About</a></li>
+            <li><a href="../blog.html">Blog</a></li>
+            <li><a href="../index.html#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
 
-              <!-- Post Subtitle  -->
-              <p
-                class="text-gray-500 text-sm lg:text-lg font-medium text-center lg:py-4">
-                Extraordinary design & development studio
-              </p>
-            </div>
-          </section>
-        </header>
+      <!-- Hero Section -->
+      <section class="relative">
+        <img
+          src="../assets/background.jpg"
+          class="h-50 lg:h-full w-full object-cover"
+          alt="Background Image" />
+        <div
+          class="absolute inset-0 flex flex-col items-center justify-center md:text-base">
+          <!-- Post Title -->
+          <h2 class="text-base text-center lg:text-3xl text-white">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate,
+            earum?
+          </h2>
+          <hr class="lg:mt-6 w-1/3 border border-white animate-pulse" />
 
-<!-- Main Section is here -->
-<main class="lg:mx-24 mt-10 mx-5">
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam facere nam officia quasi temporibus vel eaque, facilis cum sed architecto? Nam consequatur ab enim odio nobis dignissimos blanditiis nemo voluptas ea vitae, ipsam ratione, eos nisi voluptate. Quam, labore perferendis.
-    </p>
-    <h2 class="text-2xl my-3" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, officia!</h2>
-    <img class="lg:w-1/2 h-1/4	 mx-auto mb-4" src="../assets/project2.jpg" alt="">
+          <!-- Post Subtitle  -->
+          <p
+            class="text-gray-500 text-sm lg:text-lg font-medium text-center lg:py-4">
+            Extraordinary design & development studio
+          </p>
+        </div>
+      </section>
+    </header>
 
+    <!-- Main Section is here -->
+    <main class="lg:mx-24 mt-10 mx-5">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam facere
+        nam officia quasi temporibus vel eaque, facilis cum sed architecto? Nam
+        consequatur ab enim odio nobis dignissimos blanditiis nemo voluptas ea
+        vitae, ipsam ratione, eos nisi voluptate. Quam, labore perferendis.
+      </p>
+      <h2 class="text-2xl my-3">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, officia!
+      </h2>
+      <img
+        class="lg:w-1/2 h-1/4 mx-auto mb-4"
+        src="../assets/project2.jpg"
+        alt="" />
 
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, odit, aspernatur cupiditate molestias expedita fugit tenetur vitae sit sapiente laboriosam quasi ab delectus facilis voluptate deleniti asperiores, esse ut. Harum.
-    </p>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam facere nam officia quasi temporibus vel eaque, facilis cum sed architecto? Nam consequatur ab enim odio nobis dignissimos blanditiis nemo voluptas ea vitae, ipsam ratione, eos nisi voluptate. Quam, labore perferendis.
-    </p>
-    <h2 class="text-2xl my-3" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, officia!</h2>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, odit, aspernatur cupiditate molestias expedita fugit tenetur vitae sit sapiente laboriosam quasi ab delectus facilis voluptate deleniti asperiores, esse ut. Harum.
-    </p>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam facere nam officia quasi temporibus vel eaque, facilis cum sed architecto? Nam consequatur ab enim odio nobis dignissimos blanditiis nemo voluptas ea vitae, ipsam ratione, eos nisi voluptate. Quam, labore perferendis.
-    </p>
-    <p>
-      Lorem ipsum dolor sit amet consectetur <span class="font-bold text-blue-700"><a href="#">adipisicing elit.</a></span> Pariatur, odit, aspernatur cupiditate molestias expedita fugit tenetur vitae sit sapiente laboriosam quasi ab delectus facilis voluptate deleniti asperiores, esse ut. Harum.
-    </p>
-    <h2 class="text-2xl my-3" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, officia!</h2>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam facere nam officia quasi temporibus vel eaque, facilis cum sed architecto? Nam consequatur ab enim odio nobis dignissimos blanditiis nemo voluptas ea vitae, ipsam ratione, eos nisi voluptate. Quam, labore perferendis.
-    </p>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, odit, aspernatur cupiditate molestias expedita fugit tenetur vitae sit sapiente laboriosam quasi ab delectus facilis voluptate deleniti asperiores, esse ut. Harum.
-    </p>
-    <a href=""></a>
-</main>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, odit,
+        aspernatur cupiditate molestias expedita fugit tenetur vitae sit
+        sapiente laboriosam quasi ab delectus facilis voluptate deleniti
+        asperiores, esse ut. Harum.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam facere
+        nam officia quasi temporibus vel eaque, facilis cum sed architecto? Nam
+        consequatur ab enim odio nobis dignissimos blanditiis nemo voluptas ea
+        vitae, ipsam ratione, eos nisi voluptate. Quam, labore perferendis.
+      </p>
+      <h2 class="text-2xl my-3">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, officia!
+      </h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, odit,
+        aspernatur cupiditate molestias expedita fugit tenetur vitae sit
+        sapiente laboriosam quasi ab delectus facilis voluptate deleniti
+        asperiores, esse ut. Harum.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam facere
+        nam officia quasi temporibus vel eaque, facilis cum sed architecto? Nam
+        consequatur ab enim odio nobis dignissimos blanditiis nemo voluptas ea
+        vitae, ipsam ratione, eos nisi voluptate. Quam, labore perferendis.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur
+        <span class="font-bold text-blue-700"
+          ><a href="#">adipisicing elit.</a></span
+        >
+        Pariatur, odit, aspernatur cupiditate molestias expedita fugit tenetur
+        vitae sit sapiente laboriosam quasi ab delectus facilis voluptate
+        deleniti asperiores, esse ut. Harum.
+      </p>
+      <h2 class="text-2xl my-3">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, officia!
+      </h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam facere
+        nam officia quasi temporibus vel eaque, facilis cum sed architecto? Nam
+        consequatur ab enim odio nobis dignissimos blanditiis nemo voluptas ea
+        vitae, ipsam ratione, eos nisi voluptate. Quam, labore perferendis.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, odit,
+        aspernatur cupiditate molestias expedita fugit tenetur vitae sit
+        sapiente laboriosam quasi ab delectus facilis voluptate deleniti
+        asperiores, esse ut. Harum.
+      </p>
+      <a href=""></a>
+    </main>
     <!-- Footer Section -->
 
     <footer
@@ -211,8 +248,9 @@
       <aside>
         <p>Copyright © 2024 - All right reserved by Tanvir Ahmed</p>
       </aside>
-    </footer> 
+    </footer>
 
-        <!-- Javascript Added is Here -->
-        <script src="../scripts.js"></script>
-</body>
+    <!-- Javascript Added is Here -->
+    <script src="../scripts.js"></script>
+  </body>
+</html>
