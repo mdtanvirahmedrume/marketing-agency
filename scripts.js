@@ -17,3 +17,5 @@ navCloseButton.addEventListener("click", () => {
   // Hide the dropdown
   dropdown.classList.add("hidden");
 });
+
+
